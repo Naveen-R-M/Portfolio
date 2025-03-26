@@ -39,7 +39,7 @@ export const storyHighlights: StoryHighlight[] = [
     title: "Skills",
     icon: "gravity-ui:gear",
     items: [
-      "Data Analysis & Visualization\n🐼 Pandas\n🔢 NumPy\n📊 Matplotlib\n🎨 Seaborn\n🗄️ SQL\n⚛️ PyMOL\n📈 Tableau\n📊 Power BI",
+      "Data Analysis & Visualization:\n🐼 Pandas\n🔢 NumPy\n📊 Matplotlib\n🎨 Seaborn\n🗄️ SQL\n⚛️ PyMOL\n📈 Tableau\n📊 Power BI",
       "Programming\n🐍 Python\n🤖 Scikit-learn\n🔗 LangChain\n🗣️ NLP\n📓 Jupyter\n🗄️ SQL\n🧠 TensorFlow\n🔥 PyTorch\n🧱 Keras",
       "Cloud & Infrastructure\n☁️ AWS\n🌐 Azure\n🐳 Docker\n☸️ Kubernetes",
       "Databases\n🗄️ SQL (PostgreSQL, MySQL)\n📦 NoSQL (MongoDB, DynamoDB)\n🔍 Vector Databases (Pinecone, FAISS)",

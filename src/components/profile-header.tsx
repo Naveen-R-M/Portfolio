@@ -3,6 +3,7 @@ import { Avatar, Button } from '@heroui/react';
 import { Icon } from '@iconify/react';
 import { useTheme } from '@heroui/use-theme';
 import { socialLinks } from '../data/portfolio-data';
+import { useTranslation } from 'react-i18next';
 import profileDark from '../assets/images/profile_dark.jfif';
 import profilePurple from '../assets/images/profile_purple.png';
 import profileLight from '../assets/images/profile_light.jpg';
@@ -16,6 +17,8 @@ const THEME_AVATARS = {
 export const ProfileHeader = () => {
   const { theme, setTheme } = useTheme();
   const [avatarKey, setAvatarKey] = React.useState(Date.now());
+
+  const { t } = useTranslation();
 
   React.useEffect(() => {
     setAvatarKey(Date.now());
@@ -50,13 +53,13 @@ export const ProfileHeader = () => {
       />
       <div className="flex-1 text-center md:text-left">
         <h1 className="text-2xl font-bold mb-2">
-          Naveen Rajagopal Mohanraj
+          {t('header.title')}
         </h1>
         <p className="text-xl text-primary mb-2">
-          Research Assistant | MS in Software Engineering
+          {t('header.role')}
         </p>
         <p className="text-default-600 mb-4">
-          Ex-ADF Engineer & Problem Solver | GDG Cloud Member | Tech Enthusiast with a Dash of Humor 🎯
+          {t('header.bio')}
         </p>
         <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-4">
           {socialLinks.map((link) => (
@@ -73,8 +76,8 @@ export const ProfileHeader = () => {
             </Button>
           ))}
         </div>
-        <Button 
-          color="primary" 
+        <Button
+          color="primary"
           variant="solid"
           size="lg"
           onPress={scrollToContact}
