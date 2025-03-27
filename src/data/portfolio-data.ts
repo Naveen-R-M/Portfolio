@@ -91,7 +91,7 @@ export const storyHighlights: StoryHighlight[] = [
 
 export const portfolioPosts: PortfolioPost[] = [
   {
-    id: "newsnexus",
+    id: "newsNexus",
     title: "NewsNexus AI",
     image: "https://img.freepik.com/free-psd/artificial-intelligence-concept-template_23-2151613944.jpg?t=st=1742776553~exp=1742780153~hmac=45a5efedd3e8419a5ac4371bed5a169b0aadfae9d4461bc6b47a5d08d263dc62&w=1800",
     description: "An AI-powered news retrieval system using graph databases and LLMs",
@@ -101,7 +101,7 @@ export const portfolioPosts: PortfolioPost[] = [
     type: "project"
   },
   {
-    id: "stock-analysis",
+    id: "stockAnalysis",
     title: "Parallel Stock Analysis",
     image: "https://img.freepik.com/free-vector/flat-computer-engineering-concept_23-2148154743.jpg?t=st=1742776699~exp=1742780299~hmac=a4a45ae5adc5d817cedd2eddf2c89cc3390a26b0f8da2a4deaa4c19fa041a038&w=1800",
     description: "High-performance stock market analysis using parallel computing",
@@ -111,37 +111,37 @@ export const portfolioPosts: PortfolioPost[] = [
     type: "project"
   },
   {
-    id: "atlee-ai",
+    id: "atleeAi",
     title: "Atlee AI",
     image: "https://img.freepik.com/free-photo/ai-cloud-with-robot-head_23-2149739759.jpg?ga=GA1.1.1217933206.1742776486&semt=ais_keywords_boost",
     description: "Atlee AI - Personalized Language Model",
     caption: "🚀 AI Assistant Power-Up! 🤖\n\n✨ Boosted document parsing & context with LangChain, Vector DBs, RAG, & Claude!\n📈 Data processing efficiency = 💯\nPlus: Ethical web data & a slick Q&A tool! 🌐",
-    githubLink: "https://github.com/Atlee-AI",
+    githubLink: "https://github.com/atleeAi",
     tags: ["#RAG", "#AI", "#Streamlit", "#LangChain", "#VectorDB"],
     type: "project"
   },
   {
-    id: "cvd-cure",
+    id: "cvdCure",
     title: "CVD Cure",
     image: "https://img.freepik.com/premium-vector/flat-3d-isometric-covid-19-virus-surgical-mask-with-world-map-vaccine-syringe-new-normal-covid-19-virus-prevention-concept_47328-1584.jpg?w=1800",
     description: "CVD Cure - COVID-19 Detection and Prevention App",
     caption: "📱 COVID-19 App: Empowering Users! 🦠\n📈 Real-time stats & data viz, 150+ downloads!\n🔬 Offline X-ray detection (80% accuracy) with MobileNetV2!\nTech for public health! 💙",
     tags: ["#Flutter", "#COVID19", "#HealthTech", "#MobileApp"],
-    githubLink: "https://github.com/Naveen-R-M/CVD-Cure",
+    githubLink: "https://github.com/Naveen-R-M/cvdCure",
     type: "project"
   },
   {
-    id: "yogasan-rectifier",
+    id: "yogasanRectifier",
     title: "Yogasan Rectifier",
-    image: "https://picsum.photos/800/800?random=5",
+    image: "https://img.freepik.com/free-vector/yoga-practice-concept-illustration_114360-5554.jpg?t=st=1743033237~exp=1743036837~hmac=8bb7e304379bedc7bc5194675d3feb698095969ca9c687796761a340612eac13&w=1800",
     description: "Yogasan Rectifier - AI-Powered Yoga Trainer",
     caption: "🧠 AI-Powered Yoga Trainer! 📊\n⚡ Offline PoseNet with Flutter, TensorFlow, Keras!\n📵 25% less social media distraction during practice!\nTech meets tranquility! 🚀",
     tags: ["#MachineLearning", "#Flutter", "#Wellness"],
-    githubLink: "https://github.com/Trojans2-0/Yogasan-Rectifier",
+    githubLink: "https://github.com/Trojans2-0/yogasanRectifier",
     type: "project"
   },
   {
-    id: "llokality-app",
+    id: "llokalityApp",
     title: "Llokality App",
     image: "https://img.freepik.com/free-photo/top-view-paper-style-community-map_23-2149377706.jpg?t=st=1742778724~exp=1742782324~hmac=05a88741bae8dc819e63032f197287ef2aaf97886faf7ebec6006400c008ae83&w=2000",
     description: "Llokality App - Connecting Communities",

@@ -72,7 +72,7 @@ export const ProfileHeader = () => {
               variant="flat"
               startContent={<Icon icon={link.icon} className="text-xl" />}
             >
-              {link.title}
+              {t(`social.${link.id}`)}
             </Button>
           ))}
         </div>
@@ -82,7 +82,7 @@ export const ProfileHeader = () => {
           size="lg"
           onPress={scrollToContact}
         >
-          Contact Me
+          {t('header.contact')}
         </Button>
       </div>
     </div>
