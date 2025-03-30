@@ -98,7 +98,8 @@ export const portfolioPosts: PortfolioPost[] = [
     caption: "📰 GraphRAG Magic! ✨\n🔍 Contextual news retrieval powered by Neo4j, spaCy, & Ollama!\n🤯 50+ entity-relationship mappings per query!\nReal-time news summaries with LangChain! 🚀",
     tags: ["#AI", "#LangChain", "#Neo4j", "#NewsApp", "#GraphRAG"],
     githubLink: "https://github.com/Naveen-R-M/NewsNexus---News-AI",
-    type: "project"
+    type: "project",
+    likes: 42,
   },
   {
     id: "stockAnalysis",
@@ -108,7 +109,8 @@ export const portfolioPosts: PortfolioPost[] = [
     caption: "🚀 Stock Market Prediction, Turbocharged! 📈\n⚡ 70% faster with distributed LSTM/GRU/RNN on SLURM & Dask!\n📊 40% cluster efficiency & less idle time.\nPredict the future, faster! 💰",
     tags: ["#MachineLearning", "#ParallelComputing", "#FinanceTech"],
     githubLink: "https://github.com/Naveen-R-M/Stock-Prediction-using-Parallel-Computing",
-    type: "project"
+    type: "project",
+    likes: 55,
   },
   {
     id: "atleeAi",
@@ -118,7 +120,8 @@ export const portfolioPosts: PortfolioPost[] = [
     caption: "🚀 AI Assistant Power-Up! 🤖\n\n✨ Boosted document parsing & context with LangChain, Vector DBs, RAG, & Claude!\n📈 Data processing efficiency = 💯\nPlus: Ethical web data & a slick Q&A tool! 🌐",
     githubLink: "https://github.com/atleeAi",
     tags: ["#RAG", "#AI", "#Streamlit", "#LangChain", "#VectorDB"],
-    type: "project"
+    type: "project",
+    likes: 62,
   },
   {
     id: "cvdCure",
@@ -128,7 +131,8 @@ export const portfolioPosts: PortfolioPost[] = [
     caption: "📱 COVID-19 App: Empowering Users! 🦠\n📈 Real-time stats & data viz, 150+ downloads!\n🔬 Offline X-ray detection (80% accuracy) with MobileNetV2!\nTech for public health! 💙",
     tags: ["#Flutter", "#COVID19", "#HealthTech", "#MobileApp"],
     githubLink: "https://github.com/Naveen-R-M/cvdCure",
-    type: "project"
+    type: "project",
+    likes: 15,
   },
   {
     id: "yogasanRectifier",
@@ -138,7 +142,8 @@ export const portfolioPosts: PortfolioPost[] = [
     caption: "🧠 AI-Powered Yoga Trainer! 📊\n⚡ Offline PoseNet with Flutter, TensorFlow, Keras!\n📵 25% less social media distraction during practice!\nTech meets tranquility! 🚀",
     tags: ["#MachineLearning", "#Flutter", "#Wellness"],
     githubLink: "https://github.com/Trojans2-0/yogasanRectifier",
-    type: "project"
+    type: "project",
+    likes: 25,
   },
   {
     id: "llokalityApp",
@@ -148,6 +153,7 @@ export const portfolioPosts: PortfolioPost[] = [
     caption: "📱 Social App Boom! 🚀\n🤝 700+ users in 2 months, community vibes ON!\n💳 Stripe integration: 20% faster payments!\n⚡️ MongoDB optimization: 15% quicker load times!\nBuilding connections, one app at a time! 💙",
     tags: ["#MobileDevelopment", "#NoSQL", "#PaymentGateway"],
     githubLink: "https://github.com/Intech-mobile-app/flutter-mobile-app/tree/master/fl_mobile_intech_frontend",
-    type: "experience"
+    type: "experience",
+    likes: 35,
   }
 ];

@@ -36,4 +36,5 @@ export interface PortfolioPost {
   tags: string[];
   githubLink?: string;
   type: 'project' | 'experience' | 'education' | 'skill' | 'research';
+  likes?: number;
 }

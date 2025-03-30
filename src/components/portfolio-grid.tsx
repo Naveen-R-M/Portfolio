@@ -9,12 +9,15 @@ export const PortfolioGrid = () => {
   const { t } = useTranslation();
   const { theme } = useTheme();
   const isDark = theme === 'dark';
+
+  // Initialize likes state from portfolioPosts
   const [likes, setLikes] = React.useState<Record<string, number>>(() => {
     return portfolioPosts.reduce((acc, post) => ({
       ...acc,
-      [post.id]: 10
+      [post.id]: post.likes // Use likes from portfolioPosts
     }), {});
   });
+
   const [likedPosts, setLikedPosts] = React.useState<Record<string, boolean>>({});
   const [comments, setComments] = React.useState<Record<string, string[]>>({});
   const [activeComment, setActiveComment] = React.useState<string>('');
